@@ -11,7 +11,7 @@ config = YAML::load_file('config/github.yml')
 Octokit.configure do |c|
   c.auto_paginate = true
   c.login = config["login"]
-  c.password = "32b5e8706c4be54865defc789225156155eac9c7"
+  c.password = config["password"]
 end
 
 
