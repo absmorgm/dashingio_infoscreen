@@ -1,0 +1,64 @@
+
+<script type='text/javascript'>
+ $(function() {
+   Dashing.gridsterLayout('[{"col":1,"row":1,"size_x":1,"size_y":1},{"col":2,"row":1,"size_x":1,"size_y":1},{"col":3,"row":1,"size_x":1,"size_y":1},{"col":4,"row":1,"size_x":1,"size_y":1},{"col":1,"row":2,"size_x":1,"size_y":1},{"col":1,"row":3,"size_x":1,"size_y":1},{"col":3,"row":2,"size_x":1,"size_y":1},{"col":4,"row":2,"size_x":1,"size_y":1},{"col":2,"row":2,"size_x":1,"size_y":1},{"col":2,"row":3,"size_x":1,"size_y":1},{"col":3,"row":3,"size_x":1,"size_y":1},{"col":4,"row":3,"size_x":1,"size_y":1}]')
+ });
+ </script>
+
+
+
+<% content_for :title do %>My super sweet dashboard<% end %>
+<div class="gridster">
+  
+  <ul class = "the_ul">
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-view="Text"> </div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-title="Core" data-view="Text"> </div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-title="Android" data-view="Text"> </div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-title="iOS" data-view="Text"> </div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-title="Pull Requests" data-view="Text"> </div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-title="Builds" data-view="Text"> </div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="absmorgm/BowlingScoring" data-view="GithubStats"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="absmorgm/BowlingScoring" data-view="GithubStats"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="absmorgm/BowlingScoring" data-view="GithubStats"></div>
+    </li>
+
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+       <div data-id="ci_travis_bowlingscoring_master" data-view="Travis" data-unordered="true" data-title="BowlingScoring master"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+       <div data-id="ci_travis_bowlingscoring_master" data-view="Travis" data-unordered="true" data-title="BowlingScoring master"></div>
+    </li>
+
+    <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+       <div data-id="ci_travis_bowlingscoring_testing-feature" data-view="Travis" data-unordered="true" data-title="BowlingScoring testing-feature"></div>
+    </li>
+  </ul>
+
+</div>

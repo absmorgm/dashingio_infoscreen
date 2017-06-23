@@ -1,0 +1,11 @@
+---
+org:
+  auth_token: my_org_auth_token
+  repositories:
+    ci_travis_radar: zendesk/radar
+  type: org
+pro:
+  auth_token: my_pro_auth_token
+  repositories:
+    ci_travis_zendesk: zendesk/zendesk
+  type: pro

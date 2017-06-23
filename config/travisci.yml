@@ -1,0 +1,11 @@
+---
+org:
+  auth_token:
+  repositories:
+    ci_travis_bowlingscoring_master: 
+      repository: absmorgm/BowlingScoring
+      branch: master
+    ci_travis_bowlingscoring_testing-feature: 
+      repository: absmorgm/BowlingScoring
+      branch: testing-feature
+  type: org
